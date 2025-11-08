@@ -1,0 +1,3 @@
+[submodule "MyNameIsIbuki"]
+	path = MyNameIsIbuki
+	url = https://github.com/IbukiKawa/MyNameIsIbuki.git
