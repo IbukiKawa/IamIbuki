@@ -1,4 +1,5 @@
 ---
+layout: ../../layout/MarkdownPostLayout.astro
 title: 和tしの３番目のブログ記事
 author: Astro学習者
 description: "上手くいかないこともありましたが、コミュニティに質問して助けてもらいました！"
