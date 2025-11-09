@@ -5,7 +5,7 @@ export async function GET(context) {
         title: "Astro学習者 | ブログ",
         description: "Astroを学ぶ旅",
         site: context.site,
-        items: await pageGlobToRssItems(import.meta.glob('./**/*.md')),
+        items: await pagesGlobToRssItems(import.meta.glob('./**/*.md')),
         customData: `<language>ja-jp</language>`,
     });
 }
