@@ -1,4 +1,5 @@
 import {useState} from "preact/hooks";
+import {Button} from "@/astro/components/ui/button";
 
 export default function Greeting({messages}) {
     const randomMessage = () => messages[(Math.floor(Math.random() * messages.length))];
@@ -8,9 +9,9 @@ export default function Greeting({messages}) {
     return (
         <div>
             <h3>{greeting}! 訪問いただきありがとうございます！</h3>
-            <button onClick = {()  => setGreeting(randomMessage())}>
+            <Button variant="outline" onClick = {()  => setGreeting(randomMessage())}>
                 新しい挨拶
-            </button>
+            </Button>
         </div>
     )
 }
